@@ -1,0 +1,213 @@
+body 
+{
+    background-color: rgb(255, 255, 255);
+margin: 0%;
+}
+
+nav
+ {
+    background-color: rgb(32, 146, 146);
+    height:100px;  
+    margin: 0%;
+    position: sticky;
+    top: 0;
+}
+
+nav ul h3
+{
+    color:gold;
+    margin-right: 40px;
+    font-family:fantasy;
+}
+
+nav ul  li
+{
+    display:inline-flex;
+    color: #d01010;
+    font-size: x-large;
+
+}
+
+@-webkit-keyframes fill {
+    0% {
+      width: 0%;
+      height: 1px;
+    }
+    50% {
+      width: 100%;
+      height: 1px;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      background: #fff;
+    }
+}
+.link,.link:visited,.link:active {
+    color: #fff;
+  }
+.link {
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    -webkit-transition: color 2s, background 1s;
+    transition: color 2s, background 1s;
+    margin: 0px 100px;
+    padding: 36px 30px;
+    color: white;
+    position: relative;
+    bottom: 30px;
+    z-index: 0;
+}
+.link:hover {
+    color: gold;
+} 
+.link::before {
+  content: "";
+  position: absolute;
+  height: 0%;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.link:hover {
+	text-decoration: none;
+  -webkit-animation: fillColour 0.3s forwards ease-in-out;
+          animation: fillColour 0.3s forwards ease-in-out;
+}
+.link:hover::before {
+  -webkit-animation: fill 0.4s forwards ease-in-out;
+          animation: fill 0.4s forwards ease-in-out;
+  opacity: 1;
+}
+
+.contactForm{
+display:inline-block;
+
+}
+b{
+margin: 5px;
+color: #fd0101;
+font-style: italic;
+font-size: large;
+}
+form
+{
+    display: inline-block;
+    width: 1060px;
+    background-color: rgb(255, 255, 255);
+}
+.fimg
+{
+    display: inline-block; 
+    width: 500px; 
+    height: 520px; 
+    margin-bottom: 0px; 
+    border-bottom: 0px;
+    position: relative;
+    top: 45px;
+    z-index: -1;
+
+}
+
+input
+{
+
+border: 0;
+border-bottom: 3px solid rgb(32, 146, 146);
+height: 20px;
+width: 500x;
+-webkit-transition: color 2s, background 1s;
+transition: color 2s, background 1s;
+}
+input:hover {
+    background-color: rgb(255, 255, 161);
+  }
+
+.img
+{
+    background-color: rgb(119, 0, 132);
+    border-radius: 50px;
+    margin: 15px;
+}
+.cv
+{
+font-size:large;
+margin: 10px;
+}
+i
+{
+color: rgb(30, 115, 171);
+}
+em
+{
+    color: #fd0101;
+}
+form
+{
+font-size:large;
+margin: 10px;
+}
+ button,input[type="reset"]
+{
+    background-color: purple;
+    color: white;
+    margin: 20px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 15px;
+}
+button,input[type="reset"]:hover
+{
+    cursor: pointer;
+}
+footer
+{
+    font-size: x-large;
+    background-color: rgb(32, 146, 146);
+    padding: 20px;
+    color: gold ;
+
+}
+
+.social-icon1
+{
+    text-align: center;
+    --secondary-color:  linear-gradient(#ffed67, #8989f5);
+}
+.social-icon1 #i1 #i
+{
+    --white-color: rgb(255, 82, 82);
+}
+.social-icon1 #f1 #f
+{
+    --white-color: rgb(6, 10, 255);
+}
+.social-icon1 #w1 #w
+{
+    --white-color: rgb(4, 223, 40);
+}
+.social-icon1 #t1 #t
+{
+    --white-color: rgb(35, 185, 245);
+}
+.social-icon1 #y1 #y
+{
+    --white-color: rgb(255, 0, 0);
+}
+.social-icon1 #l1 #l
+{
+    --white-color: rgb(253, 133, 41);
+}
+.social-icon1 #p1 #p
+{
+    --white-color: rgb(255, 255, 255);
+}
+
+hr
+{
+background-color:gold;
+height: 5px;
+border: 0;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/about style.css">
+
+    <link rel="stylesheet" href="../css/bootstrap-icons.css">
+
+    <link href="../css/templatemo-pod-talk.css" rel="stylesheet">
+
+    <script src="../js/about.js"></script>
+
+    <title>Golden Crown Phons</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li> <a href="main page.html"><img src="../images/gold-monogram-crown-logo-initial-5540413.png" alt=" Web Logo " width="90px"
+                    height="90px"></li></a>
+            <li>
+                <h3>Golden Crown</h3>
+            </li>
+            <li><a class="link" href="main page.html">Main</a></li>
+            <li><a class="link" href="comments page.html">Comments</a></li>
+            <li><a class="link" href="news page.html">News</a></li>
+        </ul>
+    </nav>
+    <br>
+    <hr>
+    <hr>
+
+    <img class="img" src="../images/gold-monogram-crown-logo-initial-5540413.png" alt=" Web Logo " width="100px"
+        height="100px">
+
+    <ul class="cv">
+        <h3> Our website provides many facilities :</h3>
+        <li> that help the user to easily
+            know the specifications and shape of the mobile phone he wents .</li>
+        <li> provid delivery service to anywhere in the world .</li>
+        <li> to obtain the mobile phone directly, you can visit the main website
+            <i>The Golden Crown &#8226; shomelah market<sub>(1)</sub> &#8226; 777&dash;888&dash;999&dot;</i>
+        </li>
+        <li>and to contact us through the website, <em> click below .</em></li>
+
+    </ul>
+
+    <button onclick="showContactForm()">contact us</button>
+
+    <div id="contactForm" style="display: none;">
+
+        <form onsubmit="submitForm(event)" action="server.txt" method="get">
+            <fieldset style="border: 3px purple solid; ">
+                <legend>
+                    <h2 style="color: purple;"> Personal <span style="color: gold;">Request :</span> </h2>
+                </legend>
+                <div>
+                    <label>Your Name : </label>
+                    <input type="text" name="First Name" placeholder=" First Name" required>
+                    <label> </label>
+                    <input type="text" name="Last Name" placeholder=" Last Name" required>
+
+                </div>
+                <br>
+                <div>
+                    <label>E-mail : </label>
+                    <input type="email" name="E-mail" placeholder="Your e-mail please" required>
+                </div>
+                <br>
+                <div>
+                    <label>Phone Name : </label>
+                    <input type="text" name="Phone Name" placeholder="Name of Phone" required>
+                </div>
+                <br>
+                <div>
+                    <label>Phone Color : </label>
+                    <input type="color" name="Phone Color" value="purple" placeholder="yellow" required>
+                </div>
+                <br>
+                <label for="OS">Operating System : </label>
+                <br>
+                <div id="OS">
+                    <div>
+                        <input id="SAM" type="radio" name="OS" value="SAMSUNG" checked>
+                        <label for="SAM">Samsung</label>
+                    </div>
+                    <div>
+                        <input id="iph" type="radio" name="OS" value="iphone">
+                        <label for="iph">Iphone</label>
+                    </div>
+                    <div>
+                        <input id="Hua" type="radio" name="OS" value="Huawei">
+                        <label for="Hua">Huawei</label>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <label>Quantity : </label>
+                    <input type="number" name="Quantity" placeholder="Quantity of Phone" min="1" max="10" step="1"
+                        required>
+                </div>
+                <br>
+                <input type="reset" value="reset">
+                <button type="submit">send</button>
+            </fieldset>
+        </form>
+        <img class="fimg" src="../images/36511b66add618cbf4780f9becea1f36.jpg" alt="">
+
+    </div>
+
+    <div id="submissionMessage" style="display: none;">
+        <p><b>Thanks for the communication</b></p>
+    </div>
+
+
+    <hr>
+    <hr>
+    <footer>
+        <address>
+            <p align="center">&copy; All rights reserved</p>
+            <p align="center">The Golden Crown &#8226; shomelah market<sub>(1)</sub> &#8226; 777&dash;888&dash;999&dot;
+            </p>
+        </address>
+        <ul class="social-icon1">
+            <li id="i1" class="social-icon-item">
+                <a id="i" href="#" class="social-icon-link bi-instagram"></a>
+            </li>
+            <li id="f1" class="social-icon-item">
+                <a id="f" href="#" class="social-icon-link bi-facebook"></a>
+            </li>
+            <li id="w1" class="social-icon-item">
+                <a id="w" href="#" class="social-icon-link bi-whatsapp"></a>
+            </li>
+            <li id="t1" class="social-icon-item">
+                <a id="t" href="#" class="social-icon-link bi-twitter"></a>
+            </li>
+            <li id="y1" class="social-icon-item">
+                <a id="y" href="#" class="social-icon-link bi-youtube"></a>
+            </li>
+            <li id="l1" class="social-icon-item">
+                <a id="l" href="#" class="social-icon-link bi-linkedin"></a>
+            </li>
+            <li id="p1" class="social-icon-item">
+                <a id="p" href="#" class="social-icon-link bi-pinterest"></a>
+            </li>
+        </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
